@@ -20,7 +20,7 @@ populateTheList();
 // lets start with the constructor
 const Main = function( name,season, selectedRose ) {
   this.name = name;
-  this.image = `../img/${selectedRose.toLowerCase()}.jpeg`;
+  this.image = `./img/${selectedRose.toLowerCase()}.jpeg`;
   this.season = season;
   all.push( this );
   localStorage.setItem( 'a',JSON.stringify( all ) );
